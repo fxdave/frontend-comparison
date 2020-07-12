@@ -1,0 +1,8 @@
+.loginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm > * {
+  margin-top: 1em !important;
+}
