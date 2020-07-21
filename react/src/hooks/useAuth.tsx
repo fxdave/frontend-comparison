@@ -63,7 +63,7 @@ function useProvideAuth() {
     logout,
     loading,
     error,
-    isLoggedin: token !== "",
+    isLoggedin: token.length > 0,
     token,
   };
 }
